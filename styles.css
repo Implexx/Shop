@@ -1,0 +1,30 @@
+body{
+    /*background-color:  orangered;*/
+    background-image: url("images/bg.jpg");
+    color: #f8f8f8;
+    }
+
+.main_menu>a{
+    font-size: 20px;
+    color: #F0BB84;
+    font-style: italic;
+}
+
+.main_menu>a:visited{
+    font-size: 20px;
+    color:red;
+    font-style: italic;
+}
+
+.form_radius{
+    border-color: yellow;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.item_headers h3{
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    background: #eaeaea;
+}
