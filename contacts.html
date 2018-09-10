@@ -6,21 +6,25 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h1>
-            <b>Интернет магазин HookahShop</b>
-        </h1>
-        <nav class="main_menu">
-            <a href="index.html">Главная страница</a> |
-            <a href="catalog/catalog.html">Каталог товаров</a> |
-            <a href="contacts.html">Контакты</a>
-        </nav>
+        <header>
+            <h1>
+                <b>Интернет магазин HookahShop</b>
+            </h1>
+            <div class="header">
+                <img src="images/logo1.jpg" alt="site_logo.jpeg" width="60">
+                <a href="index.html">Главная страница</a> |
+                <a href="../Shop/catalog/catalog.html">Каталог товаров</a> |
+                <a href="contacts.html">Контакты</a>
+                <img src="images/logo1.jpg" alt="site_logo.jpeg" width="60">
+            </div>
+        </header>
         <hr>
         <h2>Напишите нам</h2>
         <form action="" method="post">
             <fieldset style="border-radius: 10px" class="form_radius">
                 <legend>Вы можете оставить нам сообщение, и мы обязательно с вами свяжемся</legend>
                 <input type="text" name="user_name" placeholder="Ваше имя" class="form_input"><br>
-                <input type="text" name="email" placeholder="e-mail" class="form_input"><br><br>
+                <input type="text" name="email" placeholder="e-mail" class="form_input email_input"><br><br>
                 <input type="text" name="theme" placeholder="Тема вопроса" class="form_input"><br>
                 <textarea name="message" rows="8" cols='50' placeholder="Введите ваше сообщение" class="message1">
                 </textarea>

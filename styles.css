@@ -4,16 +4,25 @@ body{
     color: #f8f8f8;
     }
 
-.main_menu>a{
-    font-size: 20px;
+.header {
+    font-size: 18px;
+    width: fit-content;
+    height: 62px;
+    line-height: 62px;
+    -webkit-border-vertical-spacing: initial;
+    background: black;
+    padding: 1px;
+    border: solid 2px orange;
     color: #F0BB84;
     font-style: italic;
 }
 
-.main_menu>a:visited{
-    font-size: 20px;
+.header a:visited{
     color:red;
-    font-style: italic;
+}
+
+.header a:hover{
+    color: green;
 }
 
 .form_radius{
@@ -84,6 +93,7 @@ textarea {
     padding-top:12px;
     margin-bottom:20px;
     overflow:hidden;
+    text-transform: capitalize;
 }
 
 .form_input {
@@ -101,6 +111,13 @@ textarea {
     font-weight: 300;
     padding-left:20px;
     padding-right:20px;
+    text-transform: capitalize;
+}
+
+.email_input:focus{
+    background: orange;
+    color: #00a8e1;
+    font-family: Tahoma, Verdana, sans-serif;
 }
 
 .form_input.message1 {
@@ -123,3 +140,4 @@ textarea {
 .img_border {
     border: 3px solid #00a8e1;
 }
+
